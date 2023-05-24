@@ -60,7 +60,7 @@ ul>li,
     color: white
 }
 
-div:only-child {
+.only-child-task div:only-child {
     color: red;
 }
 
@@ -76,7 +76,7 @@ div:only-child {
     background-color: yellow;
 }
 
-a[href] {
+.lesson-three-task-one a[href] {
     color: white;
 }
 
@@ -88,15 +88,15 @@ a[href] {
     background-color: red;
 }
 
-button[class*="primary"] {
+.lesson-three-task-four button[class*="primary"] {
     background-color: blue;
 }
 
-button[class^="secondary"] {
+.lesson-three-task-five button[class^="secondary"] {
     background-color: red;
 }
 
-li[class^="b"] {
+.lesson-three-task-six li[class^="b"] {
     color: green;
     background-color: white;
 }
@@ -106,23 +106,27 @@ li[class^="b"] {
     background-color: white;
 }
 
-li>span[class$="s"] {
+.lesson-three-task-eight li>span[class$="s"] {
     color: blue;
     background-color: white;
 }
 
-h2::first-letter {
-    color: blue;
+.lesson-three-task-nine h2::first-letter {
+    color: red;
 }
 
-input[placeholder] {
+.lesson-three-task-ten::first-line {
+    background-color: yellow;
+}
+
+.lesson-three-task-eleven input[placeholder] {
     background-color: red;
 }
 
-li::before {
+.lesson-three-task-twelve li::before {
     content: '➤'
 }
 
-li::after {
+.lesson-three-task-thirteen li::after {
     content: '➤'
 }
