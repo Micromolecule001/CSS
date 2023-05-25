@@ -6,13 +6,16 @@
     color: black;
 }
 
-h1,
-#blue {
-    color: blue;
+h1 {
+    background-color: blue;
 }
 
 .green {
     color: green;
+}
+
+#blue {
+    color: blue;
 }
 
 .box>div {
@@ -28,7 +31,7 @@ h1,
     background-color: brown;
 }
 
-ul>li,
+.interferesWithOther>li,
 .header-button+span {
     background-color: red;
 }
